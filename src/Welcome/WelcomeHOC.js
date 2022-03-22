@@ -7,7 +7,7 @@ export const WelcomeHOC = ({ WrappedComponent }) => {
 	useEffect(() => {
 		const randomIndex = Math.floor(Math.random() * 10);
 		setEmodji(emodjies[randomIndex]);
-	}, []);
+	}, [emodji]);
 
 	return <WrappedComponent emodji={emodji} />;
 };

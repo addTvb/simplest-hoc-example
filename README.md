@@ -1,2 +1,2 @@
 # simplest-hoc-example
-Emodji generator with React HOC 
+Emoji generator with React HOC 
